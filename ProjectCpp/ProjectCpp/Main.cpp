@@ -33,7 +33,7 @@ int main()
 	printf("캐릭터 이름 : %s\n\n", name);
 
 	// cpp 입출력 방식
-	std::cout << "cpp 입출력 코드" << std::endl;			// 들여쓰기'\n'을 안해도 자동으로 넘어가나?
+	std::cout << "cpp 입출력 코드" << std::endl;			// 들여쓰기'\n'을 안해도 자동으로 넘어가나? (해결 완)
 	std::cout << "이름을 입력해주세요." << std::endl;
 	std::cin >> name;
 	std::cout << "캐릭터의 이름 : " << name << std::endl;
