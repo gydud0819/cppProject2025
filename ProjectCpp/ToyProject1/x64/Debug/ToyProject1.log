@@ -1,0 +1,5 @@
+﻿  Main.cpp
+C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\ToyProject1\Main.cpp(32,17): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\ToyProject1\Main.cpp(32,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\ToyProject1\Main.cpp(92,7): warning C4101: 'Job' :참조되지 않은 지역 변수입니다.
+  ToyProject1.vcxproj -> C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\x64\Debug\ToyProject1.exe
