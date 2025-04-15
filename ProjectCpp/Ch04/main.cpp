@@ -26,5 +26,8 @@ int main()
 	/*Player playerPos = { 10,10 };
 	playerPos.PlayerPos();*/
 
-	/*Player player = { };*/
+	COORD playerPos = { 10,10 };
+
+	Player player1 (playerPos, "Apple");
+	player1.PlayerPos();
 }
