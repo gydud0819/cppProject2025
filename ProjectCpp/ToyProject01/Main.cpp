@@ -156,7 +156,7 @@ Item& GetItem(Item shop[], int length, int index)
 
 void AddInventory(Item inventory[], int length, int index, const Item& buyItem)	// 산 아이템은 변경이 되면 안되기 때문에 const를 사용한다. 
 {
-	inventory[index].name = buyItem.name;
+	inventory[index].name = buyItem.name;	// 인벤토리에 있는 아이템과 사는 아이템이 같다. (산게 내 주머니에 들어온다는 뜻)
 	inventory[index].price = buyItem.price;
 }
 
