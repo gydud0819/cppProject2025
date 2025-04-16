@@ -2,7 +2,7 @@
 #include "CUtil.h"
 
 /*
-* C와 C++의 차이점
+* C와 C++의 동적할당 차이점
 * 
 * C
 * 메모리 동적 할당 malloc(memory allocate) : malloc(크기 sizeof(char)* 10)
@@ -35,7 +35,7 @@ enum GENDER
 struct Person
 {
 	int age;
-	char* name;			// 길이가 얼마인지 모른다. 메모리가 배정되어 있지 않다. 
+	//char* name;			// 길이가 얼마인지 모른다. 메모리가 배정되어 있지 않다. 
 	string sName;
 	GENDER gender;
 
@@ -51,21 +51,21 @@ struct Person
 	//}
 	
 	// 생성자 오버로딩 
-	Person(int age, const char* str) : age(age)
-	{
-		// 메모리 공간에 직접 생성해줘야 한다.
-		name = new char[strlen(str) + 1];		                                                                                                                          // this? strlen?                 string name 쓰면 쟤네 둘 안써도 되는건가 
-		// 새로 생성한 공간에 외부에 있는 데이터를 복사해서 옮겨와야 한다. 
-		strcpy(name, str);
-	}
+	//Person(int age, const char* str) : age(age) //gender(gender)
+	//{
+	//	// 메모리 공간에 직접 생성해줘야 한다.
+	//	name = new char[strlen(str) + 1];		  // this? strlen?                 string name 쓰면 쟤네 둘 안써도 되는건가 
+	//	// 새로 생성한 공간에 외부에 있는 데이터를 복사해서 옮겨와야 한다. 
+	//	strcpy(name, str);
+	//}
 
-	string ReturnGendertypeName();
+	string ReturnGendertypeName() const;
 
-	// 소멸자 : 객체가 소멸될 때 자동으로 호출된다. 
+	 //소멸자 : 객체가 소멸될 때 자동으로 호출된다. 
 	~Person()
 	{
 		cout << "Person의 소멸자가 호출 되었습니다." << endl;
-		delete[] name;
+		//delete[] name;
 	}
 
 

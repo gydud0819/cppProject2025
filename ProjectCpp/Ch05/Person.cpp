@@ -5,7 +5,7 @@
 * 깊은 복사 : 주소를 새로 할당해서 값을 복사하여 저장하는 것. 새 메모리 공간이 할당된다. 
 */
 
-string Person::ReturnGendertypeName()
+string Person::ReturnGendertypeName() const	// char* name도 같이써서 코드가 약간 꼬인거 같음 const 안써도 되는데 여기선 부득이하게 사용함.
 {
 	switch (gender)
 	{
@@ -24,13 +24,14 @@ void Person::Clone(const Person& other)
 	// 얕은 복사라고 한다. -> 깊은 복사로 변경해줘야 한다. 
 	age = other.age;
 	//name = other.name;
-	name = new char[strlen(other.name) + 1];	// 새로운 메모리 공간을 생성한다. (깊은 복사)
-	strcpy(name, other.name);
+	//name = new char[strlen(other.name) + 1];	// 새로운 메모리 공간을 생성한다. (깊은 복사)
+	//strcpy(name, other.name);
+	gender = other.gender;
 }
 
 void Person::Show() const
 {
 	cout << "나이: " << age << endl;
-	cout << "이름: " << name << endl;
-	cout << "성별: " << gender << endl;
+	cout << "이름: " << sName << endl;
+	cout << "성별: " << ReturnGendertypeName() << endl;
 }
