@@ -27,7 +27,7 @@ void Enemy::ShowImage(int& posX, int& posY)
 
 bool Enemy::IsBattle(int x, int y)
 {
-	if (x <= 10)
+	if (x <= 40)
 	{
 		return true;
 	}
@@ -43,8 +43,8 @@ void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1], int& posX, i
 	ChangeImage(Image);
 
 	// 이동 로직
-	if (posX <= 10)
-		posX = 10;
+	if (posX <= 40)
+		posX = 40;
 	else
 		posX--;
 

@@ -45,11 +45,11 @@ char SlimeMove[IMAGEHEIGHT][IMAGEWIDTH + 1] =
 char PlayerIdle[IMAGEHEIGHT][IMAGEWIDTH + 1] =
 {
 	{"          "},
+	{"          "},
+	{"          "},
 	{"    ∞    "},
-	{"   /|式 "},
-	{"   / 忖  "},
-	{"          "},
-	{"          "},
+	{"    /|式  "},
+	{"    / 忖  "},
 	{"          "},
 	{"          "},
 	{"          "},
@@ -59,11 +59,11 @@ char PlayerIdle[IMAGEHEIGHT][IMAGEWIDTH + 1] =
 char PlayerBattle[IMAGEHEIGHT][IMAGEWIDTH + 1] =
 {
 	{"          "},
+	{"          "},
+	{"          "},
 	{"     ∞   "},
-	{"    /|式 "},
-	{"    / | "},
-	{"          "},
-	{"          "},
+	{"     /|式 "},
+	{"     / 忖 "},
 	{"          "},
 	{"          "},
 	{"          "},
@@ -73,11 +73,11 @@ char PlayerBattle[IMAGEHEIGHT][IMAGEWIDTH + 1] =
 char PlayerMove[IMAGEHEIGHT][IMAGEWIDTH + 1] =
 {
 	{"          "},
+	{"          "},
+	{"          "},
 	{"     ∞   "},
-	{"    /|式 "},
-	{"    / | "},
-	{"          "},
-	{"          "},
+	{"     /|式 "},
+	{"     / | "},
 	{"          "},
 	{"          "},
 	{"          "},

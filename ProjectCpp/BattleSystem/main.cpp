@@ -29,15 +29,15 @@ int main()
 {
 	Enemy Slime(100, 10, 1, "라임", SlimeBattle);		// 몬스터 객체 생성
 
-	int slimeX = 30;
+	int slimeX = 60;
 	int slimeY = 10;
 
-	Player player("인간", PlayerIdle);
+	Player Player("인간", PlayerIdle);
 	
 	int playerX = 10;
-	int playerY = 5;
+	int playerY = 10;
 
-	player.ShowPlayerImage(playerX, playerY);
+	//Player.ShowPlayerImage(playerX, playerY);
 
 	_getch();	// 키보드의 아무 버튼이나 눌러야 종료되게 한다. 
 
@@ -49,12 +49,16 @@ int main()
 
 	while (true)
 	{
-	/*	Slime.SetBattleImage(SlimeIdle, slimeX, slimeY);
+		Slime.SetBattleImage(SlimeIdle, slimeX, slimeY);
+		Player.SetPlayerBattleImage(PlayerIdle, playerX, playerY);
 		Sleep(500);
 		system("cls");
+		
+
 		Slime.SetBattleImage(SlimeMove, slimeX, slimeY);
+		Player.SetPlayerBattleImage(PlayerMove, playerX, playerY);
 		Sleep(500);
-		system("cls");*/
+		system("cls");
 
 
 	}
