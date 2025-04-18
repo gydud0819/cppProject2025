@@ -11,7 +11,7 @@ void Enemy::ChangeImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1])
 	}
 }
 
-void Enemy::ShowImage(int& posX, int& posY)
+void Enemy::ShowImage()
 {
 	for (int y = 0; y < IMAGEHEIGHT; y++)
 	{
@@ -25,9 +25,9 @@ void Enemy::ShowImage(int& posX, int& posY)
 	}
 }
 
-bool Enemy::IsBattle(int x, int y)
+bool Enemy::IsBattle()
 {
-	if (x <= 40)
+	if (posX <= 40)
 	{
 		return true;
 	}
@@ -37,7 +37,19 @@ bool Enemy::IsBattle(int x, int y)
 	}
 }
 
-void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1], int& posX, int& posY)
+bool Enemy::IsWalk()
+{
+	if (posX <= 39)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
+void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1])
 {
 
 	ChangeImage(Image);
@@ -48,5 +60,26 @@ void Enemy::SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1], int& posX, i
 	else
 		posX--;
 
-	ShowImage(posX, posY);
+	ShowImage();
+}
+
+void Enemy::Attacked(int damage)
+{
+	damage = damage - DEF;
+	if (damage <= 0)
+	{
+		damage = 1;
+	}
+
+	HP -= damage;
+	if (HP <= 0)
+	{
+		isDeath = true;
+	}
+	// HP가 0보다 작거나 같으면 몬스터가 죽었다는 사실을 외부에 알려야한다.  - Bool isdeath;
+}
+
+void Enemy::MSkill()
+{
+
 }

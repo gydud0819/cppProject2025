@@ -2,31 +2,29 @@
 #include "Common.h"
 #include "Image.h"
 
-enum TurnSystem
-{
-	PLAYER,
-
-};
-
-enum BattleState
-{
-	IDLE,
-	MOVE,
-	BATTLE
-};
-
 struct Enemy
 {
 	int HP;		// helthPoint
 	int AP;		// attackPower
 	int DEF;	// defencer
+	int skill;
 	string name;
 	char Image[IMAGEHEIGHT][IMAGEWIDTH + 1];
 	BattleState battleState;
 
-	Enemy(int HP, int AP, int DEF, string name, char Image[IMAGEHEIGHT][IMAGEWIDTH + 1])
-		: HP(HP), AP(AP), DEF(DEF), name(name)
+	int posX;
+	int posY;
+
+	bool isDeath;
+
+	Enemy(int HP, int AP, int DEF, int skill, string name, char Image[IMAGEHEIGHT][IMAGEWIDTH + 1], BattleState battleState)
+		: HP(HP), AP(AP), DEF(DEF), skill(skill), name(name), battleState(battleState)
 	{
+		posX = 60;
+		posY = 10;
+
+		isDeath = false;
+
 		for (int y = 0; y < IMAGEHEIGHT; y++)
 		{
 			for (int x = 0; x < IMAGEWIDTH + 1; x++)
@@ -38,15 +36,21 @@ struct Enemy
 
 	// 기능을 만들기 위한 선언 함수
 	void ChangeImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1]);
-	void ShowImage(int& posX, int& posY);
+	void ShowImage();
 
 	// 조건에 해당하는 기능
-	bool IsBattle(int x, int y);
-	bool IsWalk(int x, int y);
-	bool IsIdle(int x, int y);
+	bool IsBattle();
+	bool IsWalk();
+	bool IsIdle();
 
 	// 기능을 조합해서 하나의 새로운 기능으로 표현하는 함수
-	void SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1], int& posX, int& posY);
+	void SetBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1]);
+
+	// 전투를 위한 기능
+	void Attacked(int damage);
+
+	void Defence();
+	void MSkill();
 };
 
 

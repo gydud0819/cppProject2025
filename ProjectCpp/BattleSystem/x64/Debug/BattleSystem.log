@@ -1,2 +1,5 @@
-﻿  Enemy.cpp
-  BattleSystem.vcxproj -> C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\x64\Debug\BattleSystem.exe
+﻿  GameManager.cpp
+  Player.cpp
+  main.cpp
+  코드를 생성하고 있습니다...
+  BattleSystem.vcxproj -> C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\x64\Debug\BattleSystem.exe

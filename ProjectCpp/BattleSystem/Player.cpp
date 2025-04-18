@@ -11,7 +11,7 @@ void Player::ChangePlayerImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1])
 	}
 }
 
-void Player::ShowPlayerImage(int& posX, int& posY)
+void Player::ShowPlayerImage()
 {
 	for (int y = 0; y < IMAGEHEIGHT; y++)
 	{
@@ -24,9 +24,9 @@ void Player::ShowPlayerImage(int& posX, int& posY)
 	}
 }
 
-bool Player::IsFight(int x, int y)
+bool Player::IsFight()
 {
-	if (x >= 30)
+	if (posX >= 30)
 	{
 		return true;
 	}
@@ -36,13 +36,67 @@ bool Player::IsFight(int x, int y)
 	}
 }
 
-void Player::SetPlayerBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1], int& posX, int& posY)
+bool Player::IsWalk()
+{
+	if (posX >= 29)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
+void Player::SetPlayerBattleImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1])
 {
 	ChangePlayerImage(Image);
 	if (posX >= 30)
 		posX = 30;
 	else
 		posX++;
-	ShowPlayerImage(posX, posY);
+	ShowPlayerImage();
+}
+
+void Player::Attacked(int damage)
+{
+	damage = damage - DEF;
+	if (damage <= 0)
+	{
+		damage = 1;
+	}
+
+	HP -= damage;
+	if (HP <= 0)
+	{
+		isDeath = true;
+	}
+}
+
+void Player::Defence()
+{
+	DEF += 1;
+}
+
+void Player::UseItem(int Heal)
+{
+	HP += Heal;
+	
+	// 최대 체력 
+}
+
+void Player::Skill(int damage)
+{
+	damage = damage - DEF;
+	if (damage <= 0)
+	{
+		damage = 10;
+	}
+
+	HP -= damage;
+	if (HP <= 0)
+	{
+		isDeath = true;
+	}
 }
 
