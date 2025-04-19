@@ -50,7 +50,9 @@ struct Enemy
 	void Attacked(int damage);
 
 	void Defence();
-	void MSkill();
+	//void MSkill(int damage);
 };
+
+
 
 

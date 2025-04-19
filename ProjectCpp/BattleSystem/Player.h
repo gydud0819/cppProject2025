@@ -1,6 +1,9 @@
 #pragma once
 #include "Common.h"
 #include "Image.h"
+#include "Enemy.h"
+
+struct Enemy;
 
 struct Player		// 플레이어 구조체
 {
@@ -47,5 +50,5 @@ struct Player		// 플레이어 구조체
 	void Attacked(int damage);
 	void Defence();
 	void UseItem(int Heal);
-	void Skill(int damage);
+	void Skill(Enemy* slime, int damage);
 };

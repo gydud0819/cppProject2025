@@ -26,42 +26,10 @@
 
 int main()
 {
-	Enemy Slime(100, 10, 1, "라임", SlimeMove, IDLE);		// 몬스터 객체 생성
-	Player Player(200, 10, 1, 20, "인간", PlayerIdle, IDLE);		// 플레이어 객체 생성
-
-	/*int slimeX = 60;
-	int slimeY = 10;*/
+	Enemy Slime(100, 10, 5, 0,"라임", SlimeMove, IDLE);		// 몬스터 객체 생성
+	Player Player(200, 10, 10, 20, "인간", PlayerIdle, IDLE);		// 플레이어 객체 생성
 
 	GameManager Game(Slime, Player);
-	
-	/*int playerX = 10;
-	int playerY = 10;*/
-
-	//Player.ShowPlayerImage(playerX, playerY);
-
-	//_getch();	// 키보드의 아무 버튼이나 눌러야 종료되게 한다. 
-
-	/*
-	* 슬라임이 어떤 조건일 때 SlimeIdle이어야 할까?
-	* 적이 어떤 조건일 때 Move일까?
-	* 적이 어떤 조건일 때 Battle일까?
-	*/
-
-	
-	 Game.GameLoop();
-	
-
-	/*while (true)
-	{
-		Game.currentEnemy.SetBattleImage(SlimeIdle);
-		Game.player.SetPlayerBattleImage(PlayerIdle);
-		Sleep(500);
-		system("cls");
 		
-		Game.currentEnemy.SetBattleImage(SlimeMove);
-		Game.player.SetPlayerBattleImage(PlayerMove);
-		Sleep(500);
-		system("cls");
-
-	}*/
+	Game.GameLoop();
 }

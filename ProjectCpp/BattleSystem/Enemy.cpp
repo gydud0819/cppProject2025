@@ -68,7 +68,7 @@ void Enemy::Attacked(int damage)
 	damage = damage - DEF;
 	if (damage <= 0)
 	{
-		damage = 1;
+		damage = 10;
 	}
 
 	HP -= damage;
@@ -79,7 +79,4 @@ void Enemy::Attacked(int damage)
 	// HP가 0보다 작거나 같으면 몬스터가 죽었다는 사실을 외부에 알려야한다.  - Bool isdeath;
 }
 
-void Enemy::MSkill()
-{
 
-}

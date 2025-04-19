@@ -1,4 +1,5 @@
 #include "Player.h"
+#include "Enemy.h"
 
 void Player::ChangePlayerImage(char Image[IMAGEHEIGHT][IMAGEWIDTH + 1])
 {
@@ -63,7 +64,7 @@ void Player::Attacked(int damage)
 	damage = damage - DEF;
 	if (damage <= 0)
 	{
-		damage = 1;
+		damage = 10;
 	}
 
 	HP -= damage;
@@ -85,15 +86,18 @@ void Player::UseItem(int Heal)
 	// 최대 체력 
 }
 
-void Player::Skill(int damage)
+
+
+void Player::Skill(Enemy* slime, int damage)
 {
-	damage = damage - DEF;
+	//slime->HP -= damage;
+
 	if (damage <= 0)
 	{
-		damage = 10;
+		damage = 20;
 	}
 
-	HP -= damage;
+	slime->HP -= damage;
 	if (HP <= 0)
 	{
 		isDeath = true;

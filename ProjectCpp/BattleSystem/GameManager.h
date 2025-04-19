@@ -31,4 +31,8 @@ struct GameManager
 
 	// 몬스터 행동 기능
 	void EnemyTurn();
+
+	void GameClear();
+
+	void GameEnd();
 };

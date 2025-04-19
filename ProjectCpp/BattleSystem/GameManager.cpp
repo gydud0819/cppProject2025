@@ -7,34 +7,48 @@ void GameManager::GameLoop()
 		Animation();
 		Battle();
 
-		
+		if (currentTurnState == GAMECLEAR)
+		{
+			GameClear();
+			break;
+		}
+		else if (currentTurnState == GAMEEND)
+		{
+			GameEnd();
+			break;
+		}
 	}
 }
 
 void GameManager::Battle()
 {
 	// 전투 UI 출력
-	GameUI();
+	while (true)
+	{
+		GameUI();
 
 
-	// 플레이어의 조작 기능
+		// 플레이어의 조작 기능
 
-	// 플레이어가 선공 -> 몬스터가 후공
-	if (currentTurnState == PLAYERTURN)
-	{
-		PlayerTurn();
-	}
-	else if (currentTurnState == ENEMYTURN)
-	{
-		EnemyTurn();
-	}
-	else if (currentTurnState == GAMECLEAR)
-	{
-		// 게임 클리어 조건일 때 실행
-	}
-	else if (currentTurnState == GAMEEND)
-	{
-		// 플레이어가 죽거나 몬스터가 죽을 때 실행 
+		// 플레이어가 선공 -> 몬스터가 후공
+		if (currentTurnState == PLAYERTURN)
+		{
+			PlayerTurn();
+		}
+		else if (currentTurnState == ENEMYTURN)
+		{
+			EnemyTurn();
+		}
+		else if (currentEnemy.isDeath)
+		{
+			currentTurnState = GAMECLEAR;
+			break;
+		}
+		else if (player.isDeath)
+		{
+			currentTurnState = GAMEEND;
+			break;
+		}
 	}
 }
 
@@ -61,6 +75,8 @@ void GameManager::GameUI()
 	cout << "플레이어의 공격력" << player.AP;
 	GoToXY(60, 3);
 	cout << "플레이어의 방어력" << player.DEF;
+	GoToXY(60, 4);
+	cout << "스킬 사용시 데미지" << player.skill;
 
 	GoToXY(80, 0);
 	cout << "몬스터의 정보";
@@ -74,6 +90,9 @@ void GameManager::GameUI()
 
 void GameManager::PlayerTurn()
 {
+	system("cls");
+	GameUI();
+
 	GoToXY(0, 30);
 	cout << "현재 플레이어의 턴입니다." << endl;
 	cout << "1_공격한다. 2_방어한다. 3_스킬을 사용한다." << endl;
@@ -84,15 +103,23 @@ void GameManager::PlayerTurn()
 	{
 	case 1: currentEnemy.Attacked(player.AP); break;
 	case 2: player.Defence(); break;
-	case 3: player.Skill(player.skill); break;
+	case 3: player.Skill(&currentEnemy, player.skill); break;
 	default:
 		break;
+	}
+	if (currentEnemy.isDeath) 
+	{
+		currentTurnState = GAMECLEAR;
+		return;  // 턴 상태 변경 막기
 	}
 	currentTurnState = ENEMYTURN;
 }
 
 void GameManager::EnemyTurn()
 {
+	system("cls");	// ui오류 및 글자 겹치는 것 방지를 위해 사용한다. 
+	GameUI();
+
 	GoToXY(0, 32);
 	cout << "현재 몬스터의 턴입니다." << endl;
 	player.Attacked(currentEnemy.AP);
@@ -101,4 +128,19 @@ void GameManager::EnemyTurn()
 	_getch();
 
 	currentTurnState = PLAYERTURN;
+}
+
+void GameManager::GameClear()
+{
+	system("cls");
+	cout << "몬스터를 처치했습니다!";
+	//_getch();
+}
+
+void GameManager::GameEnd()
+{
+	
+	system("cls");
+	cout << "게임 오버...";
+	//_getch();
 }
