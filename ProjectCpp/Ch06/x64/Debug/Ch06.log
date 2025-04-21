@@ -1,0 +1,9 @@
+﻿  OOP.cpp
+  main.cpp
+  코드를 생성하고 있습니다...
+C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\main.cpp(36,19): error C2440: '초기화 중': 'initializer list'에서 'Rectangle'(으)로 변환할 수 없습니다.
+      C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\main.cpp(36,19):
+      'Rectangle::Rectangle': 함수는 2개의 인수를 사용하지 않습니다.
+          C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\main.cpp(36,19):
+          인수 목록 '(Point, Point)'을(를) 일치시키는 동안
+  
