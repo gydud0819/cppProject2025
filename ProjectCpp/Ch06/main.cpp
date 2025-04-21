@@ -1,7 +1,7 @@
 /*
 * 작성일	: 2025-04-21
 * 작성자	: 박효영
-* 주제	: 객체자형 프로그래밍(OOP)의 특징, (SOLID)원칙
+* 주제	: 객체지향 프로그래밍(OOP)의 특징, (SOLID)원칙
 */
 
 /*
@@ -50,9 +50,12 @@ int main()
 	// 사람은 실수를 할 수 있지만, 실수를 찾기 위한 구조적인 설계가 되어있지 않다. 
 
 	example1();
-
+	
 	Player player;
+	Enemy enemy;
 
-	/*player.AttackedBy(100);
-	player.Recovery(50);*/
+	player.AttackedBy(100);
+	player.Recovery(50);
+	enemy.AttackedBy(100);
+	enemy.Recovery(50);
 }

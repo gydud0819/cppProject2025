@@ -1,17 +1,12 @@
 #pragma once
 #include <iostream>
+#include "HP.h"
 
 using namespace std;
 
-class Enmey : public HP
+class Enemy : public HP
 {
-public:
-	int HP;
-	int MaxHP;
-	bool isDeath;
-private:
-	void AttackedBy(int damage);
-	void Recovery(int heal);
+
 };
 
 

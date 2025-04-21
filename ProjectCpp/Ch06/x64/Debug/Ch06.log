@@ -1,9 +1,21 @@
-﻿  OOP.cpp
+﻿  Enmey.cpp
   main.cpp
-  코드를 생성하고 있습니다...
-C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\main.cpp(36,19): error C2440: '초기화 중': 'initializer list'에서 'Rectangle'(으)로 변환할 수 없습니다.
-      C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\main.cpp(36,19):
-      'Rectangle::Rectangle': 함수는 2개의 인수를 사용하지 않습니다.
-          C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\main.cpp(36,19):
-          인수 목록 '(Point, Point)'을(를) 일치시키는 동안
+C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Enmey.cpp(3,13): error C2509: 'AttackedBy': 멤버 함수를 'Enmey'에서 선언하지 않았습니다.
+      C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Enemy.h(7,7):
+      'Enmey' 선언을 참조하십시오.
   
+C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Enmey.cpp(8,13): error C2509: 'Recovery': 멤버 함수를 'Enmey'에서 선언하지 않았습니다.
+      C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Enemy.h(7,7):
+      'Enmey' 선언을 참조하십시오.
+  
+  OOP.cpp
+  Player.cpp
+C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Player.cpp(3,14): error C2509: 'AttackedBy': 멤버 함수를 'Player'에서 선언하지 않았습니다.
+      C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Player.h(12,7):
+      'Player' 선언을 참조하십시오.
+  
+C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Player.cpp(17,14): error C2509: 'Recovery': 멤버 함수를 'Player'에서 선언하지 않았습니다.
+      C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Player.h(12,7):
+      'Player' 선언을 참조하십시오.
+  
+  코드를 생성하고 있습니다...

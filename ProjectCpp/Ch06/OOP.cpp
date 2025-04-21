@@ -8,8 +8,8 @@ void example1()
 	Point point(4, 6);
 	cPoint cp1(-3, 5);	
 
-	Rectangle rect = { p1, p2 };
-	//cp1.SetX(-9);
+	
+	cp1.SetX(-9);
 }
 
 void example2()
