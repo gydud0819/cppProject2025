@@ -1,21 +1,20 @@
 ﻿  Enmey.cpp
   main.cpp
-C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Enmey.cpp(3,13): error C2509: 'AttackedBy': 멤버 함수를 'Enmey'에서 선언하지 않았습니다.
-      C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Enemy.h(7,7):
-      'Enmey' 선언을 참조하십시오.
+C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Enmey.cpp(3,13): error C2509: 'AttackedBy': 멤버 함수를 'Enemy'에서 선언하지 않았습니다.
+      C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Enemy.h(7,7):
+      'Enemy' 선언을 참조하십시오.
   
-C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Enmey.cpp(8,13): error C2509: 'Recovery': 멤버 함수를 'Enmey'에서 선언하지 않았습니다.
-      C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Enemy.h(7,7):
-      'Enmey' 선언을 참조하십시오.
+C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Enmey.cpp(8,13): error C2509: 'Recovery': 멤버 함수를 'Enemy'에서 선언하지 않았습니다.
+      C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Enemy.h(7,7):
+      'Enemy' 선언을 참조하십시오.
   
-  OOP.cpp
   Player.cpp
-C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Player.cpp(3,14): error C2509: 'AttackedBy': 멤버 함수를 'Player'에서 선언하지 않았습니다.
-      C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Player.h(12,7):
+C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Player.cpp(3,14): error C2509: 'AttackedBy': 멤버 함수를 'Player'에서 선언하지 않았습니다.
+      C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Player.h(12,7):
       'Player' 선언을 참조하십시오.
   
-C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Player.cpp(17,14): error C2509: 'Recovery': 멤버 함수를 'Player'에서 선언하지 않았습니다.
-      C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\Ch06\Player.h(12,7):
+C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Player.cpp(17,14): error C2509: 'Recovery': 멤버 함수를 'Player'에서 선언하지 않았습니다.
+      C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Player.h(12,7):
       'Player' 선언을 참조하십시오.
   
   코드를 생성하고 있습니다...
