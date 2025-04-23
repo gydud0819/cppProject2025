@@ -9,7 +9,7 @@
 
 /*
 * 상속의 3가지 방법
-  public, private, protected 
+  public, private, protected 를 사용한다. 
 
   1. public 상속을 하면 public 안에 있는 함수나 변수들이 모두 그대로 사용할 수 있다는 것
   보여주고 싶은 것만 public을 사용해서 그대로 보여준다.

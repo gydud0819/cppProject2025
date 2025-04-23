@@ -50,4 +50,5 @@ void Dragoon::Attack()
 
 void Dragoon::UseSkill()
 {
+	cout << "광전사 군단에게 화포 지원을 한다." << endl;
 }

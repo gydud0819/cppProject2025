@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\",
+  "WorkspaceRootPath": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|solutionrelative:Ch08\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|solutionrelative:Ch08\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|solutionrelative:Ch08\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Police.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|solutionrelative:Ch08\\Police.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|solutionrelative:Ch08\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Book.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Book.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|solutionrelative:Ch08\\Book.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|solutionrelative:Ch08\\Book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D30DECD7-7125-4478-A183-7CD704457DB8}|Ch08\\Ch08.vcxproj|solutionrelative:Ch08\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,92 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Monster.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Monster.cpp",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Monster.cpp",
               "RelativeDocumentMoniker": "Ch08\\Monster.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Monster.cpp",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Monster.cpp",
               "RelativeToolTip": "Ch08\\Monster.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAArwDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-23T08:02:12.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Monster.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Monster.h",
-              "RelativeDocumentMoniker": "Ch08\\Monster.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Monster.h",
-              "RelativeToolTip": "Ch08\\Monster.h",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-23T07:32:41.718Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Police.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Police.h",
-              "RelativeDocumentMoniker": "Ch08\\Police.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Police.h",
-              "RelativeToolTip": "Ch08\\Police.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-23T07:29:29.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Book.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Book.cpp",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Book.cpp",
               "RelativeDocumentMoniker": "Ch08\\Book.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Book.cpp",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Book.cpp",
               "RelativeToolTip": "Ch08\\Book.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-23T07:15:50.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Book.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Book.h",
-              "RelativeDocumentMoniker": "Ch08\\Book.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Book.h",
-              "RelativeToolTip": "Ch08\\Book.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-23T07:06:07.086Z"
+              "WhenOpened": "2025-04-23T07:15:50.127Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Common.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Common.h",
-              "RelativeDocumentMoniker": "Ch08\\Common.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Common.h",
-              "RelativeToolTip": "Ch08\\Common.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "Book.h",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Book.h",
+              "RelativeDocumentMoniker": "Ch08\\Book.h",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Book.h",
+              "RelativeToolTip": "Ch08\\Book.h",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-23T07:02:25.071Z"
+              "WhenOpened": "2025-04-23T07:06:07.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Common.h",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Common.h",
+              "RelativeDocumentMoniker": "Ch08\\Common.h",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Common.h",
+              "RelativeToolTip": "Ch08\\Common.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-23T07:02:25.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\main.cpp",
               "RelativeDocumentMoniker": "Ch08\\main.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\main.cpp",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\main.cpp",
               "RelativeToolTip": "Ch08\\main.cpp",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAQwFAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-23T07:01:47.29Z"
+              "WhenOpened": "2025-04-23T07:01:47.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Monster.h",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Monster.h",
+              "RelativeDocumentMoniker": "Ch08\\Monster.h",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch08\\Monster.h",
+              "RelativeToolTip": "Ch08\\Monster.h",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwGIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-23T07:32:41.718Z",
+              "EditorCaption": ""
             }
           ]
         }

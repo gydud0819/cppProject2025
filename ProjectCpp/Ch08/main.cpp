@@ -78,6 +78,4 @@ int main()
 	selectUnit2.UseSkill();
 	selectUnit3.Attack();
 	selectUnit3.UseSkill();
-	
-
 }
