@@ -2,40 +2,57 @@
 #include "Common.h"
 
 
-enum ElementType
+enum ElementType	// 속성
 {
-	Fire, Water, Dark, Ground, Electro, Natual
+	Fire, Water, Dark, Ground, Electro, Natual, Independent
 };
 
-enum 등급
+enum Rank			// 등급
 {
-	Legendary,
+	ANCIENT, LEGENDARY, EPIC, COMMON
 };
 
-class Cookie
+class Cookie		// 부모 클래스
 {
 protected:
 	int Lv;
 	string name;
-	// 등급 추가하기
 	ElementType type;
+	Rank rank;
 public:
 	Cookie() {}
-	Cookie(int Lv, string name, ElementType type) : Lv(Lv), name(name), type(type) {}
+	Cookie(int Lv, string name, ElementType type, Rank rank) : Lv(Lv), name(name), type(type), rank(rank) {}
 public:
-	virtual void ShowCookieInfo();
+	virtual void ShowCookieInfo();		// 같은 이름을 가진 함수를 찾아 사용해라라는 뜻
+	virtual string ReturnElementType();
+	virtual string ReturnRank();
+	virtual void UseSkill();
 };
 
-class Legendary_Cookie : public Cookie
+class Wind_Archer_Cookie : public Cookie	// 자식 클래스, 바람궁수
 {
 public:
-	Legendary_Cookie() {}
-	Legendary_Cookie(int Lv, string name, ElementType type) : Cookie(Lv, name, type) {}
+	Wind_Archer_Cookie() {}
+	Wind_Archer_Cookie(int Lv, string name, ElementType type, Rank rank) : Cookie(Lv, name, type, rank) {} // 자식 클래스의 생성자
 	
 public:
-	void ShowCookieInfo() override;
+	//void ShowCookieInfo() override;		// virtual 키워드를 사용한 함수를 찾아 부모 함수로 그대로 덮어쓰라는(재정의) 의미이다.
+	//string ReturnElementType() override;	
+	//string ReturnRank() override;
+	void UseSkill() override;
 };
 
+class GingerBrave :public Cookie		// 자식 클래스, 용감한쿠키
+{
+public:
+	GingerBrave() {}
+	GingerBrave(int Lv, string name, ElementType type, Rank rank) : Cookie(Lv, name, type, rank) {}
+public:
+	//void ShowCookieInfo() override;
+	//string ReturnElementType() override;	// 부모 함수를 재정의(덮어쓰기)를 하여 다시 사용한다는 뜻이다.
+	//string ReturnRank() override;
+	void UseSkill() override;
+};
 
 
 
