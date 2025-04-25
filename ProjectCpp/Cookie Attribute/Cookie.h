@@ -53,6 +53,3 @@ public:
 	//string ReturnRank() override;
 	void UseSkill() override;
 };
-
-
-
