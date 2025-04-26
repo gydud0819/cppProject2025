@@ -23,9 +23,9 @@ public:
 	Cookie() {}
 	Cookie(int Lv, string name, ElementType type, Rank rank) : Lv(Lv), name(name), type(type), rank(rank) {}
 public:
-	virtual void ShowCookieInfo();		// 같은 이름을 가진 함수를 찾아 사용해라라는 뜻
-	virtual string ReturnElementType();
-	virtual string ReturnRank();
+	void ShowCookieInfo();		// 같은 이름을 가진 함수를 찾아 사용해라라는 뜻
+	string ReturnElementType();
+	string ReturnRank();
 	virtual void UseSkill();
 };
 
@@ -36,9 +36,9 @@ public:
 	Wind_Archer_Cookie(int Lv, string name, ElementType type, Rank rank) : Cookie(Lv, name, type, rank) {} // 자식 클래스의 생성자
 	
 public:
-	//void ShowCookieInfo() override;		// virtual 키워드를 사용한 함수를 찾아 부모 함수로 그대로 덮어쓰라는(재정의) 의미이다.
-	//string ReturnElementType() override;	
-	//string ReturnRank() override;
+	void ShowCookieInfo();		// virtual 키워드를 사용한 함수를 찾아 부모 함수로 그대로 덮어쓰라는(재정의) 의미이다.
+	string ReturnElementType();	
+	string ReturnRank();
 	void UseSkill() override;
 };
 
@@ -48,8 +48,9 @@ public:
 	GingerBrave() {}
 	GingerBrave(int Lv, string name, ElementType type, Rank rank) : Cookie(Lv, name, type, rank) {}
 public:
-	//void ShowCookieInfo() override;
-	//string ReturnElementType() override;	// 부모 함수를 재정의(덮어쓰기)를 하여 다시 사용한다는 뜻이다.
-	//string ReturnRank() override;
+	void ShowCookieInfo();
+	string ReturnElementType();	// 부모 함수를 재정의(덮어쓰기)를 하여 다시 사용한다는 뜻이다.
+	string ReturnRank();
 	void UseSkill() override;
 };
+

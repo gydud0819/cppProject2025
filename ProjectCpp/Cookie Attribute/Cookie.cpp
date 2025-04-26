@@ -59,7 +59,7 @@ void Cookie::UseSkill()
 //void Wind_Archer_Cookie::ShowCookieInfo()
 //{
 //	Cookie::ShowCookieInfo();			// 부모 클래스에서 파생한 것이기 때문에 부모 클래스에서 선언한 함수를 호출해야한다. (중요) 
-// 즉, 동일한 동작을 반복 하지 않게 하기위해 부모 클래스의 함수를 호출한다.
+// //즉, 동일한 동작을 반복 하지 않게 하기위해 부모 클래스의 함수를 호출한다.
 //}
 //
 //string Wind_Archer_Cookie::ReturnElementType()

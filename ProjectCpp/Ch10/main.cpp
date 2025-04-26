@@ -1,7 +1,7 @@
 /*
 * 작성일	: 2025-04-25
 * 작성자	: 박효영
-* 주제	: ?????
+* 주제	: 상속을 이용한 객체로 시스템을 구현.
 * 목표	: 클래스 간에 관계 정의 후 어떻게 코딩을 할 것인가
 * 상속을 이용한 객체로 시스템을 구현한다. 
 */
@@ -10,6 +10,7 @@
 * 강화 시스템을 상속과 함께 구현한다. 
 * lv + (baseATK*Wieght) = 최종 공격력
 */
+
 #include "Common.h"
 #include "Weapon.h"
 #include "UpgradeSystem.h"
@@ -17,15 +18,15 @@
 
 int main()
 {
-	/*Weapon weapon("abc", 1, 3, 5);
+	Weapon weapon("abc", 1, 3, 5);
 	weapon.ShowInfo();
 	weapon.Attack();
 
 	Weapon weapon2("def", 2, 4, 6);
 	weapon2.ShowInfo();
-	weapon2.Attack();*/
+	weapon2.Attack();
 
-	/*Spear spear("삼지창", 1, 3, 5, 3);
+	Spear spear("삼지창", 1, 3, 5, 3);
 	spear.ShowInfo();
 	spear.Attack();
 
@@ -35,7 +36,7 @@ int main()
 
 	Arrow arrow("활", 5, 6, 7, 4);
 	arrow.ShowInfo();
-	arrow.Attack();*/
+	arrow.Attack();
 
 
 
@@ -48,7 +49,7 @@ int main()
 	// Weapon이 Spear을 가리키면 어떤 결과가 나올까?
 	
 	
-	/*Weapon* wptr = &spear;
+	Weapon* wptr = &spear;
 	Weapon* sptr = &sword;
 	Weapon* aptr = &arrow;
 	wptr->Attack();
@@ -58,20 +59,20 @@ int main()
 	UpgradeSystem upgaradeSystem;
 	upgaradeSystem.Upgrade(&spear);
 	upgaradeSystem.Upgrade(&sword);
-	upgaradeSystem.Upgrade(&arrow);*/
+	upgaradeSystem.Upgrade(&arrow);
 
-	int random = RandomUtil::GetRandomInt(100);
+	//int random = RandomUtil::GetRandomInt(100);
 
-	if (random > 70)
-	{
-		cout << "성공" << endl;
-	}
-	else
-	{
-		cout << "실패" << endl;
-	}
+	//if (random > 70)
+	//{
+	//	cout << "성공" << endl;
+	//}
+	//else
+	//{
+	//	cout << "실패" << endl;
+	//}
 
-	int rand = RandomUtil::GetRandomInt(5);
+	//int rand = RandomUtil::GetRandomInt(5);
 
 	//string name = "ddd";
 	//int Lv = 1;			// 레벨
