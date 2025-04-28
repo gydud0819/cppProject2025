@@ -28,5 +28,10 @@ bool Runner::CheckEndLine(int lengh)
 void Player::Run()
 {
 	Runner::Run();
-	cout << nickName << endl;
+	cout << " " << endl;
+}
+
+void Enemy::Run()
+{
+
 }
