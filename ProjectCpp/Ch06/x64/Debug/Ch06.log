@@ -1,5 +1,5 @@
 ﻿  Enmey.cpp
-  main.cpp
+  Player.cpp
 C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Enmey.cpp(3,13): error C2509: 'AttackedBy': 멤버 함수를 'Enemy'에서 선언하지 않았습니다.
       C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Enemy.h(7,7):
       'Enemy' 선언을 참조하십시오.
@@ -8,7 +8,6 @@ C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Enmey.cpp(8,13): e
       C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Enemy.h(7,7):
       'Enemy' 선언을 참조하십시오.
   
-  Player.cpp
 C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Player.cpp(3,14): error C2509: 'AttackedBy': 멤버 함수를 'Player'에서 선언하지 않았습니다.
       C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch06\Player.h(12,7):
       'Player' 선언을 참조하십시오.
