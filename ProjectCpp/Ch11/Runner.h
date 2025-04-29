@@ -22,7 +22,7 @@ public:
 	Runner(string nickName) : run(0), isEnd(false), minSpeed(1), maxSpeed(5), nickName(nickName) {}
 	void Run();
 
-	bool CheckEndLine(int lengh);	// 맵 길이에 도달하면 종료가 되도록 bool 함수를 사용했다.
+	bool CheckEndLine(int length);	// 맵 길이에 도달하면 종료가 되도록 bool 함수를 사용했다.
 };
 
 class Player : public Runner
@@ -43,7 +43,7 @@ public:
 
 };
 
-class EnemyRunner
+class EnemyRunner : public Runner
 {
 private:
 	bool isEnemyEnd;
@@ -53,12 +53,16 @@ protected:
 	int MaxSpeed;
 	string EnemyShape;
 
-public:
-	EnemyRunner() : isEnemyEnd(false), run(0), MinSpeed(1), MaxSpeed(2), EnemyShape("▲") {}
-	EnemyRunner(string EnemyShape) : isEnemyEnd(false), run(0), MinSpeed(1), MaxSpeed(2), EnemyShape(EnemyShape) {}
+	void DrawMoveDistance();
 
 	virtual void EnemySetMaxSpeed();
 	virtual void EnemySetShape();
+public:
+	EnemyRunner() : isEnemyEnd(false), run(0), MinSpeed(1), MaxSpeed(2), EnemyShape("▲") {}
+	EnemyRunner(string EnemyShape) : isEnemyEnd(false), run(0), MinSpeed(1), MaxSpeed(2), EnemyShape(EnemyShape) {}
+	void EnemyRun();
+
+	bool CheckEndLine(int length);
 };
 
 class Enemy : public EnemyRunner

@@ -27,9 +27,9 @@ void Runner::Run()
 
 }
 
-bool Runner::CheckEndLine(int lengh)
+bool Runner::CheckEndLine(int length)
 {
-	if (run >= lengh)
+	if (run >= length)
 	{
 		isEnd = true;
 	}
@@ -62,12 +62,60 @@ void Player::SetShape()
 	}
 }
 
+void EnemyRunner::EnemyRun()
+{
+	DrawMoveDistance();
+	EnemySetMaxSpeed();
+	EnemySetShape();
+}
+
+bool EnemyRunner::CheckEndLine(int length)
+{
+	if (run >= length)
+	{
+		isEnemyEnd = true;
+	}
+	else
+	{
+		isEnemyEnd = false;
+	}
+	return isEnemyEnd;
+}
+
+void EnemyRunner::DrawMoveDistance()
+{
+	for (int i = 0; i < run; i++)					// 2. 이동한다. 
+	{
+		cout << " ";
+	}
+}
+
 void EnemyRunner::EnemySetMaxSpeed()
 {
-
+	run += RandomUtil::GetRandomInt(MaxSpeed);
 }
 
 void EnemyRunner::EnemySetShape()
 {
+	int percent = RandomUtil::GetRandomInt(100);
+	if (percent >= 50)
+	{
+		cout << "@" << EnemyShape << endl;
 
+	}
+	else
+	{
+		cout << EnemyShape << endl;
+	}
+}
+
+void Enemy::EnemySetMaxSpeed()
+{
+	int ApplyMaxSpeed = MaxSpeed + 5;		// 몬스터 대신 핵 유저 사용으로 적용
+	run += RandomUtil::GetRandomInt(ApplyMaxSpeed);
+}
+
+void Enemy::EnemySetShape()
+{
+	cout << EnemyShape << endl;
 }

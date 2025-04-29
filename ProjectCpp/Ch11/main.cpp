@@ -36,7 +36,9 @@ int main()
 	Runner* runC = new Runner("¸ø");
 	Runner* runD = new Runner("Èª");
 
-	string line = "==================================================";
+	EnemyRunner* eRunA = new Enemy();
+
+	string line = "======================================================";
 
 	int endLine = line.length();
 
@@ -52,10 +54,12 @@ int main()
 		runC->Run();
 		runD->Run();
 
+		eRunA->EnemyRun();
+
 		cout << line << endl;
 
 		if (runA->CheckEndLine(endLine) || runB->CheckEndLine(endLine)
-			|| runC->CheckEndLine(endLine) || runD->CheckEndLine(endLine))
+			|| runC->CheckEndLine(endLine) || runD->CheckEndLine(endLine)||eRunA->CheckEndLine(endLine))
 		{
 			cout << "°æ±âÁ¾·á" << endl;
 			break;
@@ -78,5 +82,9 @@ int main()
 	if (runD->CheckEndLine(endLine))
 	{
 		cout << "Èª 1µî ¢¾" << endl;
+	}
+	if (eRunA->CheckEndLine(endLine))
+	{
+		cout << "¼Óµµ ÇÙ À¯Àú 1µî" << endl;
 	}
 }
