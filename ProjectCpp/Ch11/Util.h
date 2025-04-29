@@ -14,3 +14,11 @@ class ConsoleUtil
 public:
 	static void GotoXY(int x, int y);
 };
+
+class SoundUtility
+{
+public:
+	static void PlayTitleBGM(LPCWSTR sound);
+	static void PlayBGM2(LPCWSTR sound);
+};
+

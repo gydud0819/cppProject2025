@@ -1,6 +1,4 @@
-﻿  main.cpp
-  RandomUtil.cpp
-  UpgradeSystem.cpp
-  Weapon.cpp
+﻿  RandomUtil.cpp
+C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\Ch10\RandomUtil.cpp(7,41): error C2082: 'range' 정식 매개 변수 재정의
+  main.cpp
   코드를 생성하고 있습니다...
-  Ch10.vcxproj -> C:\Users\Administrator\Desktop\cppProject2025\ProjectCpp\x64\Debug\Ch10.exe

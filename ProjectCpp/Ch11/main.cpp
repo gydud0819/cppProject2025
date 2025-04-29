@@ -1,7 +1,9 @@
 /*
-* 작성일	: 2025-04-28
+* 작성일	: 2025-04-28, 29
 * 작성자	: 박효영
-* 주제	: 클래스 정리, 달리기 게임 구현
+* 주제	: 클래스 정리, 달리기 게임 구현 
+		  (bgm 파일 넣기 및 유틸 클래스 구현)
+		  상속 관계... ㅖ? 
 */
 
 #include "Base.h"
@@ -25,12 +27,16 @@ int main()
 	system("cls");
 	std::cout << "달리기 게임 코드" << std::endl;
 
-	Runner* runA = new Player();
-	Runner* runB = new Runner("B");
-	Runner* runC = new Runner("C");
-	Runner* runD = new Runner("D");
+	// 사운드를 출력하는 코드 추가하기 
+	SoundUtility::PlayBGM2(_T("sound.wav"));
+	
 
-	string line = "==========================================";
+	Runner* runA = new Player();
+	Runner* runB = new Runner("봇");
+	Runner* runC = new Runner("못");
+	Runner* runD = new Runner("홋");
+
+	string line = "==================================================";
 
 	int endLine = line.length();
 
@@ -59,18 +65,18 @@ int main()
 
 	if (runA->CheckEndLine(endLine))
 	{
-		cout << "A가 1등했습니다." << endl;
+		cout << "옷 1등 ♥" << endl;
 	}
 	if (runB->CheckEndLine(endLine))
 	{
-		cout << "B가 1등했습니다." << endl;
+		cout << "봇 1등 ♥" << endl;
 	}
 	if (runC->CheckEndLine(endLine))
 	{
-		cout << "C가 1등했습니다." << endl;
+		cout << "못 1등 ♥" << endl;
 	}
 	if (runD->CheckEndLine(endLine))
 	{
-		cout << "D가 1등했습니다." << endl;
+		cout << "홋 1등 ♥" << endl;
 	}
 }

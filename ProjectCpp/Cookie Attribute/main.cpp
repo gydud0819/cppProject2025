@@ -4,18 +4,20 @@
 
 int main()
 {
-	Wind_Archer_Cookie WAC(90, "바람궁수 쿠키", Natual, LEGENDARY);
-	GingerBrave GB(1, "용감한 쿠키", Independent, COMMON);
+	Cookie* cookie = new Cookie();
+	delete cookie;
+	//Wind_Archer_Cookie WAC(90, "바람궁수 쿠키", Natual, LEGENDARY);
+	//GingerBrave GB(1, "용감한 쿠키", Independent, COMMON);
 
-	Cookie& cookie = WAC;	// Cookie를 참조하여 자식 클래스 객체를 가리키고 다형성을 구현했다.
-	Cookie& cookie2 = GB;
+	//Cookie& cookie = WAC;	// Cookie를 참조하여 자식 클래스 객체를 가리키고 다형성을 구현했다.
+	//Cookie& cookie2 = GB;
 
-	CookieManager cookieManager;
-	cookie.ShowCookieInfo();
-	cookieManager.CookieUpgrade(&WAC);
+	//CookieManager cookieManager;
+	//cookie.ShowCookieInfo();
+	//cookieManager.CookieUpgrade(&WAC);
 
-	cout << "=======================" << endl;
+	//cout << "=======================" << endl;
 
-	cookie2.ShowCookieInfo();
-	cookieManager.CookieUpgrade(&GB);
+	//cookie2.ShowCookieInfo();
+	//cookieManager.CookieUpgrade(&GB);
 }
