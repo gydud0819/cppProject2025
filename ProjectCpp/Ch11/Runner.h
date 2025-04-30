@@ -33,8 +33,6 @@ public:
 	void Run();
 
 	bool CheckEndLine(int length);	// 맵 길이에 도달하면 종료가 되도록 bool 함수를 사용했다.
-	
-	virtual void ShowPlayerGameInfo();
 
 	void UpGrade(PlayerStat selectedStat);
 	void UpGrade(PlayerStat selectedStat, int amount);
@@ -58,15 +56,7 @@ public:
 	}
 	Player(string nickName) : Runner(nickName) {}
 
-	void ShowPlayerGameInfo() override;
-public:
-	
-	void UpGrade(PlayerStat selectedStat);
-	void UpGrade(PlayerStat selectedStat, int amount);
-
-	void SetMin(int value);
-	void SetMax(int value);
-
+	void ShowPlayerGameInfo();
 };
 
 
