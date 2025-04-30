@@ -129,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Base.cpp" />
+    <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Runner.cpp" />
     <ClCompile Include="Util.cpp" />
@@ -136,6 +137,7 @@
   <ItemGroup>
     <ClInclude Include="Base.h" />
     <ClInclude Include="Common.h" />
+    <ClInclude Include="GameManager.h" />
     <ClInclude Include="Runner.h" />
     <ClInclude Include="Util.h" />
   </ItemGroup>

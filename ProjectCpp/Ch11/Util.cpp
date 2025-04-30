@@ -18,11 +18,11 @@ void ConsoleUtil::GotoXY(int x, int y)
 
 void SoundUtility::PlayTitleBGM(LPCWSTR sound)
 {
-    PlaySound(sound, NULL, SND_SYNC);
+    PlaySound(sound, NULL, SND_SYNC);   // 동기
 }
 
 void SoundUtility::PlayBGM2(LPCWSTR sound)
 {
-    PlaySound(sound, NULL, SND_ASYNC);
+    PlaySound(sound, NULL, SND_ASYNC);  // 비동기 
 
 }
