@@ -4,8 +4,8 @@
 
 int main()
 {
-	Cookie* cookie = new Cookie();
-	delete cookie;
+	Cookie cookie(90, "¹Ù¶÷±Ã¼ö ÄíÅ°", Natual, LEGENDARY);
+	cookie.UseSkill();
 	//Wind_Archer_Cookie WAC(90, "¹Ù¶÷±Ã¼ö ÄíÅ°", Natual, LEGENDARY);
 	//GingerBrave GB(1, "¿ë°¨ÇÑ ÄíÅ°", Independent, COMMON);
 

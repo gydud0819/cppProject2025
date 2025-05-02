@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\GameUtil.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|solutionrelative:Ch04\\GameUtil.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B1B9CE14-265E-4F28-B4D7-D77B563C1743}|Cookie Attribute\\Cookie Attribute.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Cookie Attribute\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1B9CE14-265E-4F28-B4D7-D77B563C1743}|Cookie Attribute\\Cookie Attribute.vcxproj|solutionrelative:Cookie Attribute\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|solutionrelative:Ch04\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B1B9CE14-265E-4F28-B4D7-D77B563C1743}|Cookie Attribute\\Cookie Attribute.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Cookie Attribute\\Cookie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1B9CE14-265E-4F28-B4D7-D77B563C1743}|Cookie Attribute\\Cookie Attribute.vcxproj|solutionrelative:Cookie Attribute\\Cookie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|solutionrelative:Ch04\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|solutionrelative:Ch04\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|solutionrelative:Ch04\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|solutionrelative:Ch04\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B1B9CE14-265E-4F28-B4D7-D77B563C1743}|Cookie Attribute\\Cookie Attribute.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Cookie Attribute\\Cookie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1B9CE14-265E-4F28-B4D7-D77B563C1743}|Cookie Attribute\\Cookie Attribute.vcxproj|solutionrelative:Cookie Attribute\\Cookie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,80 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameUtil.h",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\GameUtil.h",
-              "RelativeDocumentMoniker": "Ch04\\GameUtil.h",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\GameUtil.h",
-              "RelativeToolTip": "Ch04\\GameUtil.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-02T14:38:25.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Item.cpp",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Item.cpp",
-              "RelativeDocumentMoniker": "Ch04\\Item.cpp",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Item.cpp",
-              "RelativeToolTip": "Ch04\\Item.cpp",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "Title": "Cookie.cpp",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Cookie Attribute\\Cookie.cpp",
+              "RelativeDocumentMoniker": "Cookie Attribute\\Cookie.cpp",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Cookie Attribute\\Cookie.cpp",
+              "RelativeToolTip": "Cookie Attribute\\Cookie.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-02T14:38:23.5Z",
+              "WhenOpened": "2025-05-02T14:46:11.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Item.h",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Item.h",
-              "RelativeDocumentMoniker": "Ch04\\Item.h",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Item.h",
-              "RelativeToolTip": "Ch04\\Item.h",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
+              "Title": "Cookie.h",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Cookie Attribute\\Cookie.h",
+              "RelativeDocumentMoniker": "Cookie Attribute\\Cookie.h",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Cookie Attribute\\Cookie.h",
+              "RelativeToolTip": "Cookie Attribute\\Cookie.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-02T14:38:22.508Z",
+              "WhenOpened": "2025-05-02T14:46:17.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Player.cpp",
-              "RelativeDocumentMoniker": "Ch04\\Player.cpp",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Player.cpp",
-              "RelativeToolTip": "Ch04\\Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-02T14:38:18.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Player.h",
-              "RelativeDocumentMoniker": "Ch04\\Player.h",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Player.h",
-              "RelativeToolTip": "Ch04\\Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-02T14:38:16.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\main.cpp",
-              "RelativeDocumentMoniker": "Ch04\\main.cpp",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\main.cpp",
-              "RelativeToolTip": "Ch04\\main.cpp",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Cookie Attribute\\main.cpp",
+              "RelativeDocumentMoniker": "Cookie Attribute\\main.cpp",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Cookie Attribute\\main.cpp",
+              "RelativeToolTip": "Cookie Attribute\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-02T14:34:37.629Z",
+              "WhenOpened": "2025-05-02T14:45:44.461Z",
               "EditorCaption": ""
             }
           ]
