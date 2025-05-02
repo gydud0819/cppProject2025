@@ -14,6 +14,7 @@ int main()
 	Player player;
 	
 	player.UpGrade(shop.GetITems(3));
+	player.ShowPlayerInfo();
 	//DataHandler loader;
 	//Item items[MAX_ITEMS];	
 

@@ -3,65 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\DataHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|solutionrelative:DataHandle\\DataHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\GameUtil.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|solutionrelative:Ch04\\GameUtil.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\DataHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|solutionrelative:DataHandle\\DataHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|solutionrelative:Ch04\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|solutionrelative:DataHandle\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|solutionrelative:Ch04\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\Shop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|solutionrelative:DataHandle\\Shop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|solutionrelative:Ch04\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|solutionrelative:DataHandle\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|solutionrelative:Ch04\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|solutionrelative:DataHandle\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|solutionrelative:DataHandle\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\Shop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2A08A2FE-0CEE-4FE9-B281-8D82CB05DF0D}|DataHandle\\DataHandle.vcxproj|solutionrelative:DataHandle\\Shop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-=======
-      "AbsoluteMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|solutionrelative:Ch11\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|solutionrelative:Ch11\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|solutionrelative:Ch11\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|solutionrelative:Ch11\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\Runner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|solutionrelative:Ch11\\Runner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\Runner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|solutionrelative:Ch11\\Runner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CCE6E659-4A64-4DDA-B586-3D61D937F782}|Ch11\\Ch11.vcxproj|solutionrelative:Ch11\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
->>>>>>> ff09e14e62e5fde99ac47e170f71967516ed47ce
+      "AbsoluteMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD084FAA-560A-44EC-B050-72A3F0D24A69}|Ch04\\Ch04.vcxproj|solutionrelative:Ch04\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -80,190 +43,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Common.h",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\Common.h",
-              "RelativeDocumentMoniker": "Ch11\\Common.h",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\Common.h",
-              "RelativeToolTip": "Ch11\\Common.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "GameUtil.h",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\GameUtil.h",
+              "RelativeDocumentMoniker": "Ch04\\GameUtil.h",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\GameUtil.h",
+              "RelativeToolTip": "Ch04\\GameUtil.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-30T13:49:19.103Z",
+              "WhenOpened": "2025-05-02T14:38:25.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 5,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\Player.cpp",
-              "RelativeDocumentMoniker": "DataHandle\\Player.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\Player.cpp",
-              "RelativeToolTip": "DataHandle\\Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-02T08:33:06Z",
-=======
               "DocumentIndex": 1,
-              "Title": "Base.h",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\Base.h",
-              "RelativeDocumentMoniker": "Ch11\\Base.h",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\Base.h",
-              "RelativeToolTip": "Ch11\\Base.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-30T13:49:17.098Z",
+              "Title": "Item.cpp",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Item.cpp",
+              "RelativeDocumentMoniker": "Ch04\\Item.cpp",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Item.cpp",
+              "RelativeToolTip": "Ch04\\Item.cpp",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-02T14:38:23.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GameManager.cpp",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\GameManager.cpp",
-              "RelativeDocumentMoniker": "Ch11\\GameManager.cpp",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\GameManager.cpp",
-              "RelativeToolTip": "Ch11\\GameManager.cpp",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAQwHoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-30T07:14:00.654Z",
+              "Title": "Item.h",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Item.h",
+              "RelativeDocumentMoniker": "Ch04\\Item.h",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Item.h",
+              "RelativeToolTip": "Ch04\\Item.h",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-02T14:38:22.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GameManager.h",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\GameManager.h",
-              "RelativeDocumentMoniker": "Ch11\\GameManager.h",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\GameManager.h",
-              "RelativeToolTip": "Ch11\\GameManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-30T07:02:26.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Runner.cpp",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\Runner.cpp",
-              "RelativeDocumentMoniker": "Ch11\\Runner.cpp",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\Runner.cpp",
-              "RelativeToolTip": "Ch11\\Runner.cpp",
-              "ViewState": "AgIAALYAAAAAAAAAAAAQwNUAAAAAAAAAAAAAAA==",
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Player.cpp",
+              "RelativeDocumentMoniker": "Ch04\\Player.cpp",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Player.cpp",
+              "RelativeToolTip": "Ch04\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-28T08:14:50.914Z",
+              "WhenOpened": "2025-05-02T14:38:18.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Runner.h",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\Runner.h",
-              "RelativeDocumentMoniker": "Ch11\\Runner.h",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\Runner.h",
-              "RelativeToolTip": "Ch11\\Runner.h",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAQwGUAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-28T08:08:15.333Z",
->>>>>>> ff09e14e62e5fde99ac47e170f71967516ed47ce
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 4,
               "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\Player.h",
-              "RelativeDocumentMoniker": "DataHandle\\Player.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\Player.h",
-              "RelativeToolTip": "DataHandle\\Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Player.h",
+              "RelativeDocumentMoniker": "Ch04\\Player.h",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\Player.h",
+              "RelativeToolTip": "Ch04\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-02T08:06:14.561Z",
+              "WhenOpened": "2025-05-02T14:38:16.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Shop.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\Shop.cpp",
-              "RelativeDocumentMoniker": "DataHandle\\Shop.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\Shop.cpp",
-              "RelativeToolTip": "DataHandle\\Shop.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-=======
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\main.cpp",
-              "RelativeDocumentMoniker": "Ch11\\main.cpp",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch11\\main.cpp",
-              "RelativeToolTip": "Ch11\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
->>>>>>> ff09e14e62e5fde99ac47e170f71967516ed47ce
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\main.cpp",
+              "RelativeDocumentMoniker": "Ch04\\main.cpp",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\Ch04\\main.cpp",
+              "RelativeToolTip": "Ch04\\main.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-02T08:03:52.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GameManager.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\GameManager.h",
-              "RelativeDocumentMoniker": "DataHandle\\GameManager.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\GameManager.h",
-              "RelativeToolTip": "DataHandle\\GameManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-02T07:55:49.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Shop.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\Shop.h",
-              "RelativeDocumentMoniker": "DataHandle\\Shop.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\Shop.h",
-              "RelativeToolTip": "DataHandle\\Shop.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-02T07:55:13.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataHandler.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\DataHandler.cpp",
-              "RelativeDocumentMoniker": "DataHandle\\DataHandler.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\DataHandler.cpp",
-              "RelativeToolTip": "DataHandle\\DataHandler.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-02T07:24:19.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataHandler.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\DataHandler.h",
-              "RelativeDocumentMoniker": "DataHandle\\DataHandler.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\DataHandler.h",
-              "RelativeToolTip": "DataHandle\\DataHandler.h",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-02T07:10:35.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\main.cpp",
-              "RelativeDocumentMoniker": "DataHandle\\main.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\DataHandle\\main.cpp",
-              "RelativeToolTip": "DataHandle\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-02T07:04:34.492Z",
+              "WhenOpened": "2025-05-02T14:34:37.629Z",
               "EditorCaption": ""
             }
           ]

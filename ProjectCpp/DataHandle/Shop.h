@@ -13,11 +13,6 @@ public:
 		LoadItems("data.txt");
 	}
 
-	/*Shop(const string& filename) : count(0)
-	{
-		LoadItems(filename);
-	}*/
-
 	bool LoadItems(const string& filename);
 
 	void ShowItems();

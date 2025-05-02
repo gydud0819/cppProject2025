@@ -47,10 +47,6 @@ struct ItemDataType
 // 가져올 데이터의 타입을 하나의 이름으로 가져오기 위해서 Item class를 구현했다.
 class Item
 {
-private:
-
-protected:
-
 public:
 	int index;
 	string name;
@@ -65,10 +61,6 @@ public:
 
 class DataHandler
 {
-private:
-
-protected:
-
 public:
 	// filename으로부터 메모장을 열어서 가져온다, Items(메모장의 정보를 저장할 매개체)
 	int LoadItems(const string& filename, Item items[]);	// 파일로부터 아이템을 가져오겠다라는 의미의 함수, Item을 배열로 가져온다. 

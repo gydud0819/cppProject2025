@@ -1,7 +1,5 @@
 #include "DataHandler.h"
 
-
-
 int DataHandler::LoadItems(const string& filename, Item items[])
 {
 	ifstream file(filename);    // 파일 이름으로 파일을 가져온다. (프로젝트 파일에 있는 data.txt를 불러올 수 있음)
@@ -25,7 +23,7 @@ int DataHandler::LoadItems(const string& filename, Item items[])
 		int typeCount;
 		int amount;
 
-		// 데이터를 파싱한다? == 데이터 타입을 바꿔준다?
+		// 데이터를 파싱한다 == 데이터를 각 변수에 맞게 저장되도록 변환하는 것
 		if (iss >> index >> name >> price >> typeCount >> amount)
 		{
 			ItemDataType newType(typeCount, amount);
