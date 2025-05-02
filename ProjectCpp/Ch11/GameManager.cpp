@@ -13,39 +13,32 @@ void GameManager::ShopPhase()
 	// 플레이어의 강화 시스템
 	system("cls");
 	//ConsoleUtil::GotoXY(40, 15);
-	cout << "상점에 들어옴" << endl;
+	cout << "상점에 진입한다." << endl;
 
-	//int input = 0;
-	cout << "메뉴얼 선택" << endl;
-	//cin >> input;
+	int input = 0;
+	cout << "1_maxSpeed가 증가합니다." << endl;
+	cout << "2_minSpeed가 증가합니다." << endl;
+	cout << "3_게임 시작" << endl;
+
+	cin >> input;
+	if (input == 1)
+	{
+		player->UpGrade(PlayerStat::MAXSPEED, 1);
+	}
+	else if (input == 2)
+	{
+		player->UpGrade(PlayerStat::MINSPEED, 1);
+	}
+	else if (input == 3)
+	{
+		cout << "게임을 시작합니다." << endl;
+	}
+	
 
 }
 
 void GameManager::GamePhase()
 {
-	system("cls");
-	std::cout << "달리기 게임 시작" << std::endl;
-
-	int input = 0;
-	cout << "1_minSpeed가 증가합니다." << endl;
-	cout << "2_maxSpeed가 증가합니다." << endl;
-	cout << "3_게임 시작" << endl;
-	//cout << "1_minSpeed가 증가합니다." << endl;
-	cin >> input;
-	if (input == 1)
-	{
-		player->UpGrade(PlayerStat::MAXSPEED);
-	}
-	else if (input == 2)
-	{
-		player->UpGrade(PlayerStat::MINSPEED);
-	}
-	else if (input == 3)
-	{
-		player->Run();
-	}
-
-
 	// 사운드를 출력하는 코드 추가하기 
 	//SoundUtility::PlayBGM2(_T("sound.wav"));
 
@@ -54,16 +47,19 @@ void GameManager::GamePhase()
 	Runner* runC = new Runner("못");
 	Runner* runD = new Runner("홋");
 
+	string line = "=========================================================";
+
+	int endLine = line.length();
+
 	player->Initialize();
 	runB->Initialize();
 	runC->Initialize();
 	runD->Initialize();
 
+	Sleep(1000);
+
 	//EnemyRunner* eRunA = new Enemy();
 
-	string line = "=========================================================";
-
-	int endLine = line.length();
 
 	while (true)
 	{
@@ -71,14 +67,11 @@ void GameManager::GamePhase()
 		system("cls");
 
 		cout << line << endl;
-
 		player->Run();
 		runB->Run();
 		runC->Run();
 		runD->Run();
-
 		//eRunA->EnemyRun();
-
 		cout << line << endl;
 
 		player->ShowPlayerGameInfo();

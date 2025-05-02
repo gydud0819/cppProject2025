@@ -12,12 +12,10 @@ private:
 	void ShopPhase();	// 서브?
 	void GamePhase();
 
-	void ResultPhase();	// 결과를 보여주는 함수
-
 public:
 	GameManager()
 	{
-		player == new Player();
+		player = new Player();
 	}
 	void Play();
 
