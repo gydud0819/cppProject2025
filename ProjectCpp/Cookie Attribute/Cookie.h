@@ -4,7 +4,7 @@
 
 enum ElementType	// 속성
 {
-	Fire, Water, Dark, Ground, Electro, Natual, Independent
+	Fire, Water, Dark, Ground, Electro, Wind, Independent
 };
 
 enum Rank			// 등급
@@ -27,13 +27,16 @@ public:
 	string ReturnElementType();
 	string ReturnRank();
 	virtual void UseSkill();
+
+	//virtual ~Cookie() = default;
+	virtual ~Cookie() = default;
 };
 
-class Wind_Archer_Cookie : public Cookie	// 자식 클래스, 바람궁수
+class Wind_Cookie : public Cookie	// 자식 클래스, 바람궁수
 {
 public:
-	Wind_Archer_Cookie() {}
-	Wind_Archer_Cookie(int Lv, string name, ElementType type, Rank rank) : Cookie(Lv, name, type, rank) {} // 자식 클래스의 생성자
+	Wind_Cookie() {}
+	Wind_Cookie(int Lv, string name, ElementType type, Rank rank) : Cookie(Lv, name, type, rank) {} // 자식 클래스의 생성자
 	
 public:
 	void ShowCookieInfo();		// virtual 키워드를 사용한 함수를 찾아 부모 함수로 그대로 덮어쓰라는(재정의) 의미이다.
