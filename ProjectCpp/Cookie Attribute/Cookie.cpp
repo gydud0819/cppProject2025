@@ -1,5 +1,12 @@
 #include "Cookie.h"
 
+
+
+ElementType Cookie::GetElementType() const
+{
+	return type;
+}
+
 void Cookie::ShowCookieInfo()
 {
 	cout << "ÄíÅ°ÀÇ ·¹º§: " << Lv << endl;
@@ -25,8 +32,13 @@ string Cookie::ReturnElementType()
 		return "Electro";
 	case Wind:
 		return "Wind";
+	case Ice:
+		return "Ice";
+	case Light:
+		return "Light";
 	case Independent:
 		return "Independent";
+
 	default:
 		break;
 	}
@@ -40,8 +52,12 @@ string Cookie::ReturnRank()
 		return "ANCIENT";
 	case LEGENDARY:
 		return "LEGENDARY";
+	case SUPER_EPIC:
+		return"SUPER_EPIC";
 	case EPIC:
 		return "EPIC";
+	case RARE:
+		return"RARE";
 	case COMMON:
 		return "COMMON";
 	default:

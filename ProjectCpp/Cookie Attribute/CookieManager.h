@@ -4,14 +4,15 @@
 class CookieManager
 {
 private:
-	Cookie* windCookies[7];		// 바람 속성 쿠키 7개
-	int windCount;				// 저장된 쿠키 수
+	static const int Cookie_Count = 10;
+	Wind_Cookie cookies[Cookie_Count];		// 바람 속성 쿠키 7개			// 저장된 쿠키 수
 public:
-	CookieManager() : windCount(0) {}
-
-	void AddCookie(Cookie* cookie);
+	
+	CookieManager();
 	
 	void ShowAllCookies();
 	void ShowCookieByElement(ElementType type);
+	int LoadCookie(const string& filename, Cookie cookies[]);	// 메모장으로부터 쿠키 정보를 읽어오는 함수
+	void LoadCookieInfo(const string& filename);
 };
 

@@ -1,15 +1,16 @@
 #pragma once
 #include "Common.h"
 
+const int MAX_COOKIE = 100;
 
 enum ElementType	// 속성
 {
-	Fire, Water, Dark, Ground, Electro, Wind, Independent
+	Fire, Water, Dark, Ground, Electro, Wind, Ice, Light, Independent
 };
 
 enum Rank			// 등급
 {
-	ANCIENT, LEGENDARY, EPIC, COMMON
+	ANCIENT, LEGENDARY, SUPER_EPIC, EPIC, RARE, COMMON
 };
 
 class Cookie		// 부모 클래스
@@ -22,6 +23,7 @@ protected:
 public:
 	Cookie() {}
 	Cookie(int Lv, string name, ElementType type, Rank rank) : Lv(Lv), name(name), type(type), rank(rank) {}
+	ElementType GetElementType() const;
 public:
 	void ShowCookieInfo();		// 같은 이름을 가진 함수를 찾아 사용해라라는 뜻
 	string ReturnElementType();
