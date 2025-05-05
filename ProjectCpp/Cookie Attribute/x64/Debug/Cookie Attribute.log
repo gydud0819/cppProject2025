@@ -1,2 +1,6 @@
-﻿  main.cpp
-  Cookie Attribute.vcxproj -> C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\x64\Debug\Cookie Attribute.exe
+﻿CookieManager.obj : error LNK2019: "public: enum ElementType __cdecl Cookie::GetElementType(void)const " (?GetElementType@Cookie@@QEBA?AW4ElementType@@XZ)"public: void __cdecl CookieManager::ShowCookieByElement(enum ElementType)" (?ShowCookieByElement@CookieManager@@QEAAXW4ElementType@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+CookieManager.obj : error LNK2019: "public: void __cdecl Cookie::ShowCookieInfo(void)" (?ShowCookieInfo@Cookie@@QEAAXXZ)"public: void __cdecl CookieManager::LoadCookieInfo(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LoadCookieInfo@CookieManager@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+CookieManager.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl Cookie::UseSkill(void)" (?UseSkill@Cookie@@UEAAXXZ)
+CookieManager.obj : error LNK2019: "public: void __cdecl Wind_Cookie::ShowCookieInfo(void)" (?ShowCookieInfo@Wind_Cookie@@QEAAXXZ)"public: void __cdecl CookieManager::ShowAllCookies(void)" (?ShowAllCookies@CookieManager@@QEAAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+CookieManager.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl Wind_Cookie::UseSkill(void)" (?UseSkill@Wind_Cookie@@UEAAXXZ)
+C:\Users\DPC\Desktop\cppProject2025\ProjectCpp\x64\Debug\Cookie Attribute.exe : fatal error LNK1120: 5개의 확인할 수 없는 외부 참조입니다.
