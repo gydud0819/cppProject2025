@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\",
+  "WorkspaceRootPath": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|solutionrelative:StoryTelling\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|solutionrelative:StoryTelling\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|solutionrelative:StoryTelling\\Image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\ImageMondel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\ImageMondel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|solutionrelative:StoryTelling\\ImageMondel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Console.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|solutionrelative:StoryTelling\\Console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Console.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|solutionrelative:StoryTelling\\Console.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|solutionrelative:StoryTelling\\Console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C4D4453-FEDA-417E-980F-87762C3FFD7E}|StoryTelling\\StoryTelling.vcxproj|solutionrelative:StoryTelling\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,56 +34,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Actor.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Actor.h",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Actor.h",
               "RelativeDocumentMoniker": "StoryTelling\\Actor.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Actor.h",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Actor.h",
               "RelativeToolTip": "StoryTelling\\Actor.h",
-              "ViewState": "AgIAABUAAAAAAAAAAAAkwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-06T08:13:53.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Image.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Image.h",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Image.h",
               "RelativeDocumentMoniker": "StoryTelling\\Image.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Image.h",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Image.h",
               "RelativeToolTip": "StoryTelling\\Image.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-06T07:28:56.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ImageMondel.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\ImageMondel.h",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\ImageMondel.h",
               "RelativeDocumentMoniker": "StoryTelling\\ImageMondel.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\ImageMondel.h",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\ImageMondel.h",
               "RelativeToolTip": "StoryTelling\\ImageMondel.h",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwEAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-06T07:19:49.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Console.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Console.cpp",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Console.cpp",
               "RelativeDocumentMoniker": "StoryTelling\\Console.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Console.cpp",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Console.cpp",
               "RelativeToolTip": "StoryTelling\\Console.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-06T07:15:59.837Z",
               "EditorCaption": ""
@@ -92,24 +96,24 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Console.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Console.h",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Console.h",
               "RelativeDocumentMoniker": "StoryTelling\\Console.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Console.h",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\Console.h",
               "RelativeToolTip": "StoryTelling\\Console.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-06T07:08:32.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\main.cpp",
               "RelativeDocumentMoniker": "StoryTelling\\main.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\main.cpp",
+              "ToolTip": "C:\\Users\\DPC\\Desktop\\cppProject2025\\ProjectCpp\\StoryTelling\\main.cpp",
               "RelativeToolTip": "StoryTelling\\main.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwFoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-06T07:06:19.454Z",
               "EditorCaption": ""
