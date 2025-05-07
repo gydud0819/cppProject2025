@@ -3,6 +3,22 @@
 * 작성자	: 박효영
 * 주제	: 아스키 코드 아카이브를 활용하여 스토리있는 게임 간단하게 구현
 */
+
+/*
+* 작성일	: 2025-05-07
+* 작성자	: 박효영 
+* 주제	: Release Debug 빌드 차이점
+*/
+
+/*
+* Release Debug
+* 용량이 큰 게임을 빌드 할 때 빌드 시간이 오래 걸린다.
+* 플레이하면서 버그가 있는지 없는지 확인해야한다. - QA팀
+* 
+* Release : 출시 버전
+* Debug : 테스트 버전
+*/
+
 #include <iostream>
 #include "Console.h"
 #include "ImageMondel.h"
@@ -36,56 +52,71 @@ int main()
 	Image baseball(model.baseballPlayer, 50);
 	Console::GotoXY(20, 20);
 
-	baseball.move(0, 5, 10, 500);		// 플레이어 애니메이션
-	actor.Tell("나레이션", "9회말 2아웃 2사 2, 3루 5:4 홈팀이 지고 있는 상황.");	// 대사
+	baseball.move(0, 5, 10, 200);		// 플레이어 애니메이션
+	actor.Tell("나레이션", "9회말 2아웃 2사 1, 3루 5:4 홈팀이 지고 있는 상황.");	// 대사
 	actor.Tell("나레이션", "타자가 타석에 들어서고 타격 준비를 한다.");	// 대사
 	actor.Tell("나레이션", "타자는 어떤 선택을 할까요?");
 	bool b1 = actor.Selection("타자", "초구를 지켜본다.", "방망이를 휘두른다.");
-
+	
 	while (true)
 	{
+		// 나중에 함수로 만들어서 간단하게 하기
 		if (b1)
 		{
 			cout << "초구를 지켜보았다." << endl;
 			actor.Tell("나레이션", "초구는 스트라이크이다.");
-
+			
 		}
+
 		if (b1)
 		{
 			actor.Tell("나레이션", "타자는 어떤 선택을 할까요?");
 			bool b2 = actor.Selection("타자", "공을 지켜본다.", "배트를 휘두른다.");
+
+			system("cls");
 
 			cout << "방망이를 휘둘렀다." << endl;
-			actor.Tell("나레이션", "두번째 공도 스트라이크이다.");
+			actor.Tell("나레이션", "2번째 공도 스트라이크이다.");
 		}
+
 		if (b1)
 		{
 			actor.Tell("나레이션", "타자는 어떤 선택을 할까요?");
 			bool b2 = actor.Selection("타자", "공을 지켜본다.", "배트를 휘두른다.");
 
+			system("cls");
+
 			cout << "타자는 배트를 휘둘렀다." << endl;
-			actor.Tell("나레이션", "세번째는 헛스윙이다.");
+			actor.Tell("나레이션", "3번째는 헛스윙이다.");
 		}
+		
 		if (b1)
 		{
 			actor.Tell("나레이션", "타자는 어떤 선택을 할까요?");
 			bool b2 = actor.Selection("타자", "공을 지켜본다.", "배트를 휘두른다.");
 
+			system("cls");
+
 			cout << "타자는 배트를 휘둘렀다." << endl;
-			actor.Tell("나레이션", "네번째 공은 파울이다.");
+			actor.Tell("나레이션", "4번째 공은 파울이다.");
+			actor.Tell("나레이션", "2아웃 2스트라이크, 마지막 카운트만이 남았다.");
 		}
+
 		if (b1)
 		{
 			actor.Tell("나레이션", "타자는 어떤 선택을 할까요?");
 			bool b2 = actor.Selection("타자", "공을 지켜본다.", "배트를 휘두른다.");
+
+			system("cls");
 
 			cout << "타자는 배트를 휘둘렀다." << endl;
 			actor.Tell("나레이션", "다섯번 째 공이 좌익수 담장 뒤로 넘어간다.");
 		}
 
-		cout << "공이 담장을 넘어가며 역전 쓰리런 홈런을 쳤다.." << endl;
+		cout << "공이 담장을 넘어가며 역전 쓰리런 홈런을 쳤다." << endl;
 		actor.Tell("나레이션", "9회말 5:7로 역전을 하면서 홈팀이 경기를 이겼다.");
 
 		break;
 	}
 }
+

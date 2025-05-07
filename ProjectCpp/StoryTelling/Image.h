@@ -54,7 +54,7 @@ public:
 		}
 	}
 
-	void moveReverse(int x, int y, int moveDistance, int delay)
+	void moveReverse(int x, int y, int moveDistance, int delay)			// 역으로 움직이게 하는 함수 
 	{
 		for (int i = 0; i < moveDistance; i++)
 		{
