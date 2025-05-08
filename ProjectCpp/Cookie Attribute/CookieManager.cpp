@@ -2,115 +2,146 @@
 
 CookieManager::CookieManager()
 {
-	for (int i = 0; i < Cookie_Count; i++)
+	windCookieIndex = 0;
+	fireCookieIndex = 0;
+
+	for (int i = 0; i < Cookie_Count; i++)	// 모든 칸을 nullptr로 초기화한다.
 	{
-		cookies[0] = Wind_Cookie(90, "바람궁수 쿠키", Wind, LEGENDARY);
-		cookies[1] = Wind_Cookie(90, "페스츄리맛 쿠키", Wind, EPIC);
-		cookies[2] = Wind_Cookie(90, "민트초코맛 쿠키", Wind, EPIC);
-		cookies[3] = Wind_Cookie(90, "의적맛 쿠키", Wind, EPIC);
-		cookies[4] = Wind_Cookie(90, "구미호맛 쿠키", Wind, EPIC);
-		cookies[5] = Wind_Cookie(90, "그린티무스맛 쿠키", Wind, EPIC);
-		cookies[6] = Wind_Cookie(90, "우무맛 쿠키", Wind, EPIC);
+		windcookies[i] = nullptr;
 	}
+	string windNames[] = { "바람궁수 쿠키", "페스츄리맛 쿠키", "민트초코맛 쿠키", "의적맛 쿠키", "구미호맛 쿠키",
+						   "그린티무스맛 쿠키", "우무맛 쿠키" };
+	Rank windRanks[] = { LEGENDARY, EPIC, EPIC, EPIC, EPIC, EPIC,EPIC };
+
+	int windCount = sizeof(windNames) / sizeof(string); // 배열 요소 개수 계산
+
+	for (int i = 0; i < 7; i++)
+	{
+		windcookies[i] = new Wind_Cookie(windNames[i], Wind, windRanks[i]);
+	}
+	for (int i = 7; i < Cookie_Count; i++)
+	{
+		windcookies[i] = nullptr;
+	}
+
+	//------------------------------------------------------------------------------------------
+
+	for (int i = 0; i < Cookie_Count; i++)	// 모든 칸을 nullptr로 초기화한다.
+	{
+		firecookies[i] = nullptr;
+	}
+
+	string fireNames[] = { "버닝스파이스 쿠키", "불꽃정령 쿠키", "용과드래곤 쿠키", "캡사이신맛 쿠키", "칠리맛 쿠키","크림유니콘 쿠키", 
+						   "성게맛 쿠키", "호밀맛 쿠키", "마라맛 쿠키", "타르트타탕맛 쿠키", "올리브맛 쿠키", "넛맥타이거맛 쿠키", "우무맛 쿠키" };
+	Rank fireRanks[] = { BEAST, LEGENDARY, DRAGON, SUPER_EPIC, EPIC, EPIC, EPIC, EPIC, EPIC, EPIC, EPIC, EPIC, EPIC };
+
+	int fireCount = sizeof(fireNames) / sizeof(string); // 배열 요소 개수 계산
+
+	for (int i = 0; i < 13; i++)
+	{
+		firecookies[i] = new Fire_Cookie(fireNames[i], Fire, fireRanks[i]);
+	}
+	for (int i = 13; i < Cookie_Count; i++)
+	{
+		firecookies[i] = nullptr;
+	}
+
 }
 
 void CookieManager::ShowAllCookies()
 {
 	for (int i = 0; i < Cookie_Count; i++)
 	{
-		cookies[i].ShowCookieInfo();
+		if (windcookies[i] != nullptr)
+		{
+			windcookies[i]->ShowCookieInfo();
+
+		}
+		if (firecookies[i] != nullptr)
+		{
+
+			firecookies[i]->ShowCookieInfo();
+		}
 	}
 }
 
-void CookieManager::ShowCookieByElement(ElementType type)
+void CookieManager::ShowCookieByElement(ElementType type)	// 속성별로 호출하기 위해 선언했다.
 {
 	for (int i = 0; i < Cookie_Count; i++)
 	{
-		if (cookies[i].GetElementType() == type)
+		if (windcookies[i] != nullptr && windcookies[i]->GetElementType() == type)
 		{
-			cookies[i].ShowCookieInfo();
+			windcookies[i]->ShowCookieInfo();
+		}
+		if (firecookies[i] != nullptr && firecookies[i]->GetElementType() == type)
+		{
+			firecookies[i]->ShowCookieInfo();
 		}
 	}
 }
 
-int CookieManager::LoadCookie(const string& filename, Cookie cookies[])
+void CookieManager::ShowCookieByRank(Rank rank)
 {
-	ifstream file(filename);
-	if (!file.is_open())  // 파일이 열리지 않았다면
+	for (int i = 0; i < Cookie_Count; i++)
 	{
-		cerr << "파일을 열 수 없습니다" << filename << endl;
-		return 0;
-	}
-
-	int id = 0;
-	string line;
-
-	// item의 항목을 읽어와야한다.
-	while (getline(file, line) && id < MAX_COOKIE)
-	{
-		istringstream iss(line);
-		string name1, name2, name3, /*typestr,*/ rankstr;
-
-		// 데이터를 파싱한다 == 데이터를 각 변수에 맞게 저장되도록 변환하는 것
-		if (iss >> name1 >> name2 >> name3 >> /*typestr >>*/ rankstr)
+		if (windcookies[i] != nullptr && windcookies[i]->GetRank() == rank)
 		{
-			string name = name1 + " " + name2 + " " + name3;
-			int Lv = 90;	// 생성자로 만든 데이터를 대입한 다음 1을 증가시켜준다는 의미이다. 
-			ElementType type = Wind;
-			Rank rank = EPIC;
-
-			cookies[id++] = Cookie(Lv, name, Wind, rank);
-
-			/*if (typestr == "Wind")
-				type = Wind;
-			else if (typestr == "Fire")
-				type = Fire;
-			else if (typestr == "Water")
-				type = Water;
-			else if (typestr == "Dark")
-				type = Dark;
-			else if (typestr == "Ice")
-				type = Ice;
-			else if (typestr == "Light")
-				type = Light;
-			else if (typestr == "Ground")
-				type = Ground;
-			else if (typestr == "Independent")
-				type = Independent;*/
-
-			if (rankstr == "LEGENDARY")
-				rank = LEGENDARY;
-			else if (rankstr == "SUPER_EPIC")
-				rank = SUPER_EPIC;
-			else if (rankstr == "EPIC")
-				rank = EPIC;
-			else if (rankstr == "RARE")
-				rank = RARE;
-			else if (rankstr == "COMMON")
-				rank = COMMON;
-
+			windcookies[i]->ShowCookieInfo();
 		}
-		else
+		if (firecookies[i] != nullptr && firecookies[i]->GetRank() == rank)
 		{
-			cerr << "유효하지 않은 데이터가 존재합니다" << line << endl;		// 이거 왜뜸???????????
+			firecookies[i]->ShowCookieInfo();
 		}
 	}
-
-	file.close();	// close까지 해줘야 한다. 
-
-	return id;
 }
 
-void CookieManager::LoadCookieInfo(const string& filename)
+void CookieManager::AddCookies(/*string name, int elementInput, int rankInput*/)
 {
-	Cookie cookies[10];
-	//LoadCookieInfo("WindCookie.txt");
+	string name;
+	int elementInput;
+	int rankInput;
 
-	int count = LoadCookie(filename, cookies);
-	for (int i = 0; i < count; i++)
+	cout << "쿠키 정보를 입력하세요." << endl;
+	cin.ignore();
+	getline(cin, name);
+
+	cout << "속성을 입력하세요" << endl;
+	cout << "0: 불 1: 바람" << endl;
+	cin >> elementInput;
+
+	cout << "등급을 입력하세요" << endl;
+	cout << "0. ACIENT 1. BEAST 2. LEGENDARY 3. DRAGON" << endl;
+	cin >> rankInput;
+
+	ElementType element = static_cast<ElementType>(elementInput);
+	Rank rank = static_cast<Rank>(rankInput);
+
+	if (element == Wind) 
 	{
-		cookies[i].ShowCookieInfo();
+		if (windCookieIndex >= Cookie_Count) 
+		{
+			cout << "[경고] 더 이상 바람 속성 쿠키를 추가할 수 없습니다!" << endl;
+			return;
+		}
+		windcookies[windCookieIndex++] = new Wind_Cookie(name, Wind, rank);
+		cout << "[완료] 바람 속성 쿠키 추가됨!" << endl;
+	}
+	else if (element == Fire) 
+	{
+		if (fireCookieIndex >= Cookie_Count) 
+		{
+			cout << "[경고] 더 이상 불 속성 쿠키를 추가할 수 없습니다!" << endl;
+			return;
+		}
+		firecookies[fireCookieIndex++] = new Fire_Cookie(name, Fire, rank);
+		cout << "[완료] 불 속성 쿠키 추가됨!" << endl;
+	}
+	else {
+		cout << "[오류] 잘못된 속성입니다!" << endl;
 	}
 }
+
+
+
 
 
