@@ -21,30 +21,28 @@ string Cookie::ReturnElementType()
 {
 	switch (type)
 	{
-	case Fire:
-
-		return "Fire";
-	case Water:
-		return "Water";
-	case Dark:
-		return "Dark";
-	case Ground:
-		return "Ground";
-	case Electro:
-		return "Electro";
-	case Wind:
-		return "Wind";
-	case Ice:
-		return "Ice";
-	case Light:
-		return "Light";
-	case Poison:
-		return "Poison";
-	case Steel:
-		return "Steel";
-	case Independent:
-		return "Independent";
-
+	case 불:
+		return "불";
+	case 물:
+		return "물";
+	case 독:
+		return "독";
+	case 빛:
+		return "빛";
+	case 땅:
+		return "땅";
+	case 얼음:
+		return "얼음";
+	case 전기:
+		return "전기";
+	case 어둠:
+		return "어둠";
+	case 바람:
+		return "바람";
+	case 강철:
+		return "강철";
+	case 무속성:
+		return "무속성";
 	default:
 		break;
 	}
@@ -76,40 +74,7 @@ string Cookie::ReturnRank()
 }
 
 // 밑에 주석처리한 내용은 부모클래스의 함수와 똑같은 내용이기에 오버라이딩이 필요없다 판단하여 전부 주석처리를 했다.
-
-void Wind_Cookie::ShowCookieInfo()
-{
-	cout << "바람 속성 쿠키" << endl;
-	Cookie::ShowCookieInfo();			// 부모 클래스에서 파생한 것이기 때문에 부모 클래스에서 선언한 함수를 호출해야한다. (중요) 
- //즉, 동일한 동작을 반복 하지 않게 하기위해 부모 클래스의 함수를 호출한다.
-}
-
-string Wind_Cookie::ReturnElementType()
-{
-	return Cookie::ReturnElementType();		// 부모 함수를 오버라이드하기 때문에 반드시 리턴을 해줘야한다.
-}
-
-string Wind_Cookie::ReturnRank()
-{
-	return Cookie::ReturnRank();			// 부모 함수를 오버라이드하기 때문에 반드시 리턴을 해줘야한다.
-}
-
-//void GingerBrave::ShowCookieInfo()
-//{
-//	Cookie::ShowCookieInfo();
-//}
-
-string GingerBrave::ReturnElementType()
-{
-	return Cookie::ReturnElementType();
-}
-
-string GingerBrave::ReturnRank()
-{
-	return Cookie::ReturnRank();
-}
-
-
+// 불 속성
 void Fire_Cookie::ShowCookieInfo()
 {
 	Cookie::ShowCookieInfo();
@@ -121,6 +86,159 @@ string Fire_Cookie::ReturnElementType()
 }
 
 string Fire_Cookie::ReturnRank()
+{
+	return Cookie::ReturnRank();
+}
+
+// 물 속성
+void Water_Cookie::ShowCookieInfo()
+{
+	Cookie::ShowCookieInfo();
+}
+
+string Water_Cookie::ReturnElementType()
+{
+	return Cookie::ReturnElementType();
+}
+
+string Water_Cookie::ReturnRank()
+{
+	return  Cookie::ReturnRank();
+}
+
+// 독 속성
+void Poison_Cookie::ShowCookieInfo()
+{
+	Cookie::ShowCookieInfo();
+}
+
+string Poison_Cookie::ReturnElementType()
+{
+	return Cookie::ReturnElementType();
+}
+
+string Poison_Cookie::ReturnRank()
+{
+	return Cookie::ReturnRank();
+}
+
+void Light_Cookie::ShowCookieInfo()
+{
+	Cookie::ShowCookieInfo();
+}
+
+string Light_Cookie::ReturnElementType()
+{
+	return Cookie::ReturnElementType();
+}
+
+string Light_Cookie::ReturnRank()
+{
+	return Cookie::ReturnRank();
+}
+
+void Ground_Cookie::ShowCookieInfo()
+{
+	Cookie::ShowCookieInfo();
+}
+
+string Ground_Cookie::ReturnElementType()
+{
+	return Cookie::ReturnElementType();
+}
+
+string Ground_Cookie::ReturnRank()
+{
+	return Cookie::ReturnRank(); 
+}
+
+void Ice_Cookie::ShowCookieInfo()
+{
+	Cookie::ShowCookieInfo();
+}
+
+string Ice_Cookie::ReturnElementType()
+{
+	return Cookie::ReturnElementType();
+}
+
+string Ice_Cookie::ReturnRank()
+{
+	return Cookie::ReturnRank();
+}
+
+void Electro_Cookie::ShowCookieInfo()
+{
+	Cookie::ShowCookieInfo();
+}
+
+string Electro_Cookie::ReturnElementType()
+{
+	return Cookie::ReturnElementType();
+}
+
+string Electro_Cookie::ReturnRank()
+{
+	return Cookie::ReturnRank();
+}
+
+void Dark_Cookie::ShowCookieInfo()
+{
+	Cookie::ShowCookieInfo();
+}
+
+string Dark_Cookie::ReturnElementType()
+{
+	return Cookie::ReturnElementType();
+}
+
+string Dark_Cookie::ReturnRank()
+{
+	return Cookie::ReturnRank();
+}
+
+void Wind_Cookie::ShowCookieInfo()
+{
+	Cookie::ShowCookieInfo();
+}
+
+string Wind_Cookie::ReturnElementType()
+{
+	return Cookie::ReturnElementType();
+}
+
+string Wind_Cookie::ReturnRank()
+{
+	return Cookie::ReturnRank();
+}
+
+
+void Steel_Cookie::ShowCookieInfo()
+{
+	Cookie::ShowCookieInfo();
+}
+
+string Steel_Cookie::ReturnElementType()
+{
+	return Cookie::ReturnElementType();
+}
+
+string Steel_Cookie::ReturnRank()
+{
+	return Cookie::ReturnRank();
+}
+
+void Independent_Cookie::ShowCookieInfo()
+{
+	Cookie::ShowCookieInfo();
+}
+
+string Independent_Cookie::ReturnElementType()
+{
+	return Cookie::ReturnElementType();
+}
+
+string Independent_Cookie::ReturnRank()
 {
 	return Cookie::ReturnRank();
 }
